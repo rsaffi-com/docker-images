@@ -1,0 +1,7 @@
+kubeoff
+
+if [[ -x /root/.run_once.sh ]] ; then /root/.run_once.sh ; fi
+
+if [ -x "$(command -v tmux)" ] && [ -z "${TMUX}" ] && [ "$(tty)" != "/dev/tty1" ] ; then
+    tmux attach || tmux >/dev/null 2>&1
+fi
