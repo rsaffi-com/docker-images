@@ -16,6 +16,7 @@ iftop
 iotop
 ipcalc
 iperf3
+iptables
 iptraf
 locales
 lshw
