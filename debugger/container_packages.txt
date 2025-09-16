@@ -26,6 +26,7 @@ moreutils
 mtr-tiny
 net-tools
 p7zip
+procps
 pwgen
 python3-pip
 rsync
