@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths:
-      - debugger/
+      - debugger/**
       - .github/workflows/debugger.yaml
   workflow_dispatch:
 
